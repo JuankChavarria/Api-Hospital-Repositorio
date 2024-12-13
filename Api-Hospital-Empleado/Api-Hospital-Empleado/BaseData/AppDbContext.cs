@@ -9,10 +9,15 @@ namespace Api_Hospital_Empleado.BaseData
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<Asistencia> Asistencias { get; set; }
 
+        public DbSet<Beneficio> Beneficios { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
                 modelBuilder.Entity<Asistencia>()
                     .HasKey(a => a.IdAsistencia);
+
+                 modelBuilder.Entity<Beneficio>()
+                    .HasKey(b => b.IdBeneficio);
             }
         }
     }
