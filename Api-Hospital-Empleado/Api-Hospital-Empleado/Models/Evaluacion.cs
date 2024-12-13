@@ -8,7 +8,7 @@
         public string Indicadores { get; set; }
         public string Resultado { get; set; }
         public string AdicionadoPor { get; set; }
-        public DateTime FechaAdicion { get; set; }
+        public DateTime? FechaAdicion { get; set; }
         public string? ModificadoPor { get; set; }
         public DateTime? FechaModificacion { get; set; }
     }

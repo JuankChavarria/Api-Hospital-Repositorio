@@ -64,6 +64,8 @@ namespace Api_Hospital_Empleado.Controllers
             _context.Asistencias.Remove(asistencia);
             await _context.SaveChangesAsync();
             return NoContent();
+
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Api_Hospital_Empleado.Models
 {
-    public class Cumplimiento_Legal
+    public class Cumplimiento
     {
         public int IdCumplimiento { get; set; }
         public int IdEmpleado { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace Api_Hospital_Empleado.Models
 {
-    public class Disciplina
+    public class Disciplinaa
     {
         public int IdDisciplina { get; set; }
         public int IdEmpleado { get; set; }
